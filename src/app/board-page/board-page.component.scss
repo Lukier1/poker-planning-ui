@@ -1,0 +1,13 @@
+.users-board {
+    margin-left: auto;
+    margin-right: auto;
+    h3 { 
+        margin-bottom: 0px;
+    }
+    .user-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 400px;
+    }
+}
