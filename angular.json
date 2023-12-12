@@ -133,5 +133,8 @@
       }
     }
   },
-  "defaultProject": "go-scrum-poker-ui"
+  "defaultProject": "go-scrum-poker-ui",
+  "cli": {
+    "analytics": false
+  }
 }
