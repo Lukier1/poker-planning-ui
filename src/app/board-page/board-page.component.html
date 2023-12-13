@@ -1,8 +1,0 @@
-<div class="users-board" *ngIf="room$ | async as room">
-    <h3>Room: {{room.id}}</h3>
-    <h3>Users</h3>
-    <div class="user-row" *ngFor="let user of room.users">
-        <p class="user-name">{{user.name}}</p>
-        <p class="user-vote">{{user.vote}}</p>
-    </div>
-</div>
