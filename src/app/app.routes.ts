@@ -1,3 +1,5 @@
 import { Routes } from '@angular/router';
-
-export const routes: Routes = [];
+import { BoardPageComponent } from './board-page/board-page.component';
+export const routes: Routes = [{
+    path: 'rooms/:roomId', component: BoardPageComponent
+  },];
